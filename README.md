@@ -33,7 +33,6 @@ A full-stack delivery management platform built using React, Django REST Framewo
 ---
 
 ## Tech Stack
-
 ### Frontend
 
 - React
