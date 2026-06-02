@@ -3,7 +3,7 @@ import CustomerDashboard from "./components/CustomerDashboard";
 import DriverDashboard from "./components/DriverDashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import ProtectedRoute from "./routes/protectedRoute";
+import ProtectedRoute from "./routes/ProtectedRoute";
 import AdminLayout from "./admin/AdminLayout";
 import AdminDashboard from "./admin/AdminDashboard";
 import AdminDeliveries from "./admin/AdminDeliveries";
