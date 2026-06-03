@@ -26,7 +26,11 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "delivery-management-platform-3.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -77,11 +81,10 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "delivery-management-platform-d518-yyak4n27f-utsav1501s-projects.vercel.app"
+    "https://delivery-management-platform-d518-yyak4n27f-utsav1501s-projects.vercel.app",
 ]
 
 AUTH_USER_MODEL = 'users.User'
-
 ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
