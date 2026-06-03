@@ -77,6 +77,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "delivery-management-platform-d518-yyak4n27f-utsav1501s-projects.vercel.app"
 ]
 
 AUTH_USER_MODEL = 'users.User'
