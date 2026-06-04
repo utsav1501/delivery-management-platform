@@ -78,7 +78,7 @@ function Register() {
           </button>
         </form>
         <p className="text-center mt-4">Already have an account?</p>
-        <Link to="/login" className="block text-center text-blue-600 mt-2 hover:underline">  Login Here</Link>
+        <Link to="/" className="block text-center text-blue-600 mt-2 hover:underline">  Login Here</Link>
       </div>
     </div>
   );
